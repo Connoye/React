@@ -1,0 +1,94 @@
+/* .students{
+    border:1px solid black;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+} */
+
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.student {
+	display: flex;
+	align-items: center;
+	width: 700px;
+	margin: 0 auto;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+  }
+  
+  .name {
+	width: 250px;
+	text-align: left;
+  }
+  
+  .age {
+	width: 100px;
+	text-align: center;
+  }
+  
+  .country {
+	width: 250px;
+	text-align: left;
+  }
+  
+  .action {
+	width: 100px;
+	text-align: center;
+  }
+  
+  .deleteBtn {
+	  background-color: #0f3d4a;
+	  color: #fff;
+	  font-size: 15px;
+	  border: 0px;
+	  border-radius: 5px;
+	  outline: none;
+	  padding: 6px 12px;
+	  cursor: pointer;
+  }
+
+  .addBtn {
+	color: #0f3d4a;
+	background-color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	border: 0px;
+	border-radius: 5px;
+	outline: none;
+	padding: 6px 12px;
+	cursor: pointer;
+	width: 70px;
+  }

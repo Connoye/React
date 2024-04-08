@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+button {
+  background-color: #48abe0;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  height: 250px;
+  width: 250px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 70%;
+  cursor: "pointer";
+  margin: "30px";
+  display: "flex";
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
